@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+
+*{  
+    font-family: 'Oregano', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    border: solid;
+    height: auto;
+}
+
+#encabezado{
+    position: static;
+    display: flex;
+    border: solid;
+    width: 100%;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
